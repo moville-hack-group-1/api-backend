@@ -1,0 +1,6 @@
+docker/database/data
+!docker/database/data/.gitkeep
+.idea/
+symfony/application/vendor/
+.env
+.DS_Store

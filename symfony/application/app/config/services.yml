@@ -1,0 +1,16 @@
+# Learn more about services, parameters and containers at
+# http://symfony.com/doc/current/service_container.html
+parameters:
+#    parameter_name: value
+
+services:
+    api.game_service:
+        class: ApiBundle\Service\Game\GameService
+        arguments: ["@doctrine.orm.entity_manager"]
+    api.game_play_service:
+        class: ApiBundle\Service\Game\GamePlayService
+        arguments: ["@doctrine.orm.entity_manager"]
+    api.game_request_service:
+        class: ApiBundle\Service\Game\GameRequestService
+    api.board_serializer_service:
+        class: ApiBundle\Service\Serializer\Board\BoardSerializerService
