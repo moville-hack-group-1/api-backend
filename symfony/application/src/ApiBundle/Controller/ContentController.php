@@ -34,7 +34,7 @@ class ContentController extends AbstractController
     {\"image\": \"https://i.picsum.photos/id/99/200/300.jpg\",
       \"alt\": \"Lorem Ipsum\"
     },
-    {\"audio\": \"http://kolber.github.io/audiojs/demos/mp3/juicy.mp3\"}
+    {\"audio\": \"/audio/step-1.mp3\"}
     ],
     \"step-2\": [
     {

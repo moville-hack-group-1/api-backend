@@ -77,12 +77,24 @@ Retorna audios dos conteúdos de trilhas.
 ```bash
 GET: /api/audio
 
-{
-  "step-1": "/audio/step1-juicy.mp3",
-  "step-2": "/audio/step2-juicy.mp3",
-  "step-3": "/audio/step3-juicy.mp3",
-  "step-4": "/audio/step4-juicy.mp3"
-}
+[
+  {
+    "step-1": "/audio/step-1.mp3",
+    "title": "Lorem Ipsum"
+  },
+  {
+    "step-2": "/audio/step-2.mp3",
+    "title": "Lorem Ipsum"
+  },
+  {
+    "step-3": "/audio/step-3.mp3",
+    "title": "Lorem Ipsum"
+  },
+  {
+    "step-4": "/audio/step-4.mp3",
+    "tittle": "Lorem Ipsum"
+  }
+]
 
 ```
 
