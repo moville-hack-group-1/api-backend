@@ -7,6 +7,22 @@ Hackathon desenvolvido por pessoas negras, promovido pelo grupo MOVILE afim de v
 
 ## EDUCA **N**AÇÃO BACKEND API
 
+## Iniciando o Projeto 
+
+Para rodar o projeto, execute o comando abaixo:
+
+```sh
+docker-compose up -d
+```
+
+Após, acesse o browser na url: [http://localhost/app_dev.php/api/](http://localhost/app_dev.php/api/)
+
+# Tecnologias Usadas
+
+* Docker - [https://www.docker.com/](https://www.docker.com/)
+* PHP 7 - [https://www.php.net/](https://www.php.net/)
+
+
 ### API Routes
 
 Retorna todo conteúdo das trilhas para download mobile.
