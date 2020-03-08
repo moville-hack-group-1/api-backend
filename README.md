@@ -102,11 +102,23 @@ Retorna imagens das trilhas.
 ```bash
 GET: /api/images
 
-{
-  "step-1": "https://picsum.photos/200/300",
-  "step-2": "https://picsum.photos/200/300",
-  "step-3": "https://picsum.photos/200/300",
-  "step-4": "https://picsum.photos/200/300"
-}
+[
+  {
+    "step-1": "/images/step-1.png",
+    "alt": "Lorem Ipsum"
+  },
+  {
+    "step-2": "/images/step-2.png",
+    "alt": "Lorem Ipsum"
+  },
+  {
+    "step-3": "/images/step-3.png",
+    "alt": "Lorem Ipsum"
+  },
+  {
+    "step-4": "/images/step-4.png",
+    "alt": "Lorem Ipsum"
+  }
+]
 
 ```
