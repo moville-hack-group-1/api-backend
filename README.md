@@ -17,10 +17,11 @@ $ docker-compose up -d
 
 Após, acesse o browser na url: [http://localhost/app_dev.php/api/](http://localhost/app_dev.php/api/)
 
-# Tecnologias Usadas
+# Stack Utilizada
 
 * Docker - [https://www.docker.com/](https://www.docker.com/)
 * PHP 7 - [https://www.php.net/](https://www.php.net/)
+* Symfony Framework - [https://symfony.com/](https://symfony.com/)
 * Ngrok - [https://ngrok.com/](https://ngrok.com/)
 
 
