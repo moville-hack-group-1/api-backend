@@ -1,7 +1,5 @@
-[{
-  "competencia": "História e Geografia",
-  "temas": []
-},
+[
+  {"competencia": "História e Geografia"},
   {
     "competencia": "Ciências",
     "temas": [
@@ -135,19 +133,15 @@
     ]
   },
   {
-    "competencia": "LÍNGUA PORTUGUESA, LÍNGUA ESTRANGEIRA MODERNA, EDUCAÇÃO FÍSICA E EDUCAÇÃO ARTÍSTICA",
-    "temas": []
+    "competencia": "LÍNGUA PORTUGUESA, LÍNGUA ESTRANGEIRA MODERNA, EDUCAÇÃO FÍSICA E EDUCAÇÃO ARTÍSTICA"
   },
   {
-    "competencia": "MATEMÁTICA",
-    "temas": []
+    "competencia": "MATEMÁTICA"
   },
   {
-    "competencia": "Competencia4",
-    "temas": []
+    "competencia": "Competencia4"
   },
   {
-    "competencia": "Competencia5",
-    "temas": []
+    "competencia": "Competencia5"
   }
 ]
