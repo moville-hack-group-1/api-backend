@@ -12,7 +12,7 @@ Hackathon desenvolvido por pessoas negras, promovido pelo grupo MOVILE afim de v
 Para rodar o projeto, execute o comando abaixo:
 
 ```sh
-docker-compose up -d
+$ docker-compose up -d
 ```
 
 Após, acesse o browser na url: [http://localhost/app_dev.php/api/](http://localhost/app_dev.php/api/)
