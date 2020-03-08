@@ -26,14 +26,14 @@ class ImageController extends AbstractController
     public function contentAction(Request $request)
     {
         try {
-            $audios = [
-                'step-1' => 'https://picsum.photos/200/300',
-                'step-2' => 'https://picsum.photos/200/300',
-                'step-3' => 'https://picsum.photos/200/300',
-                'step-4' => 'https://picsum.photos/200/300',
+            $images = [
+                ['step-1' => '/images/step-1.png', 'alt' => 'Lorem Ipsum'],
+                ['step-2' => '/images/step-2.png', 'alt' => 'Lorem Ipsum'],
+                ['step-3' => '/images/step-3.png', 'alt' => 'Lorem Ipsum'],
+                ['step-4' => '/images/step-4.png', 'alt' => 'Lorem Ipsum']
             ];
 
-            return $this->createResponse($audios, Response::HTTP_OK);
+            return $this->createResponse($images, Response::HTTP_OK);
 
         } catch (\Exception $ex) {
             return $this->createResponse($ex, $ex->getCode());

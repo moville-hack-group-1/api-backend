@@ -30,7 +30,7 @@ class AudioController extends AbstractController
                 ['step-1' => '/audio/step-1.mp3', 'title' => 'Lorem Ipsum'],
                 ['step-2' => '/audio/step-2.mp3', 'title' => 'Lorem Ipsum'],
                 ['step-3' => '/audio/step-3.mp3', 'title' => 'Lorem Ipsum'],
-                ['step-4' => '/audio/step-4.mp3', 'tittle' => 'Lorem Ipsum']
+                ['step-4' => '/audio/step-4.mp3', 'title' => 'Lorem Ipsum']
             ];
 
             return $this->createResponse($audios, Response::HTTP_OK);
