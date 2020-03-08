@@ -21,6 +21,7 @@ Após, acesse o browser na url: [http://localhost/app_dev.php/api/](http://local
 
 * Docker - [https://www.docker.com/](https://www.docker.com/)
 * PHP 7 - [https://www.php.net/](https://www.php.net/)
+* Ngrok - [https://ngrok.com/](https://ngrok.com/)
 
 
 ### API Routes
